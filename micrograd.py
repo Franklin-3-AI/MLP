@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import torch
 
-#Creating an Engine for calculating the forward and backward propagation. We are doing it so to know what is exactly going on under the hodd as in later we will probably be making models using production grade libraries
+#Creating an Engine for calculating the forward and backward propagation. We are doing it so to know what is exactly going on under the hodd.
 class Value:
     def __init__(self,data,_children=(),_op='',label='') :
         self.data =data#a scalar value for waits and inputs
